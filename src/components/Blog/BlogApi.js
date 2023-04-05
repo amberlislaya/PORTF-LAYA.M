@@ -1,0 +1,36 @@
+const BlogApi = [
+  {
+    id: 1,
+    image: "./image/girasoles-01.jpg",
+    date: "2 Mayo, 2021",
+    title_one: "Digital Markett a su nueva oficina.",
+    desc_one: "Para nosotros, la opción de tarea, sin financiamiento, es lo que puedo hacer con la inversión. Los tipos no tienen una claridad innata; es el uso del lector en ellos lo que hace su claridad. La investigación ha demostrado que los lectores me leen más de lo que leen con más frecuencia. La claridad es también un proceso dinámico que sigue los hábitos cambiantes de los lectores..",
+    title_two: "Para nosotros, la opción eleifend es adecuada...",
+    desc_two: "Por el momento, cuando estaba enfermo, mi tarea era una misa, pero ahora, ¿a quién le debo hacer la misa? Mi casino está lleno de adornos, pero en los vehículos del chocolate médico. Excepto de la masa. Estaré encantado de dar la bienvenida a los jugadores. Pero el nisl necesita del laoreet, pues no lo acepta, sino el eros de dibujos animados. Ahora la sonrisa del león estará invertida, era en forma de dignificador. Para facilitar el proceso de fabricación. El curso de la vida de la familia y del mundo de la vida está cerrado. La clase es adecuada para los socios silenciosos que se vuelven hacia las costas a través de nuestros matrimonios, a través de los proyectos de Himeneo. Ahora la vida no es más que un torturador. No hay tiempo para la enfermedad, ponerlo o una cama de él, es necesario ponerlo en el lago. Fusce eleifend hendrerit para beber. No es causado por una enfermedad.",
+    title_three: "Al mismo tiempo, es para niños..",
+    desc_three: "No hay ley, a menos que halague la necesidad o la necesidad del tiempo. Es una inversión ecológica. ¿Para quién es el niño? El juego de baloncesto, el tiempo que toma está hecho, odio el dolor de internet rhoncus, una facilisis ni mi como ex. Cada vez la urna del precio de nada, del precio de la masa de tristeza. Nadie en ningún patio. Mecenas en nibh gravida, no para adornar eros, es conveniente para ligula. Pero el autor está preocupado. Cada uno no hará un corte de pelo limpio, para usar un sombrero. Todo el mundo odia a los gatos y los perros.",
+  },
+  {
+    id: 2,
+    image: "./image/banco-02.jpg",
+    date: "28 Abril, 2021",
+    title_one: "Los Servicios Brindan Dideños ",
+    desc_one: "Para nosotros, la opción de tarea, sin financiamiento, es lo que puedo hacer con la inversión. Los tipos no tienen una claridad innata; es el uso del lector en ellos lo que hace su claridad. La investigación ha demostrado que los lectores me leen más de lo que leen con más frecuencia. La claridad es también un proceso dinámico que sigue los hábitos cambiantes de los lectores..",
+    title_two: "Para nosotros, la opción eleifend es adecuada..",
+    desc_two: "Por el momento, cuando estaba enfermo, mi tarea era una misa, pero ahora, ¿a quién le debo hacer la misa? Mi casino está lleno de adornos, pero en los vehículos del chocolate médico. Excepto de la masa. Estaré encantado de dar la bienvenida a los jugadores. Pero el nisl necesita del laoreet, pues no lo acepta, sino el eros de dibujos animados. Ahora la sonrisa del león estará invertida, era en forma de dignificador. Para facilitar el proceso de fabricación. El curso de la vida de la familia y del mundo de la vida está cerrado. La clase es adecuada para los socios silenciosos que se vuelven hacia las costas a través de nuestros matrimonios, a través de los proyectos de Himeneo. Ahora la vida no es más que un torturador. No hay tiempo para la enfermedad, ponerlo o una cama de él, es necesario ponerlo en el lago. Fusce eleifend hendrerit para beber. No es causado por una enfermedad.",
+    title_three: "Al mismo tiempo, es para niños..",
+    desc_three: "No hay ley, a menos que halague la necesidad o la necesidad del tiempo. Es una inversión ecológica. ¿Para quién es el niño? El juego de baloncesto, el tiempo que toma está hecho, odio el dolor de internet rhoncus, una facilisis ni mi como ex. Cada vez la urna del precio de nada, del precio de la masa de tristeza. Nadie en ningún patio. Mecenas en nibh gravida, no para adornar eros, es conveniente para ligula. Pero el autor está preocupado. Cada uno no hará un corte de pelo limpio, para usar un sombrero. Todo el mundo odia a los gatos y los perros.",
+  },
+  {
+    id: 3,
+    image: "./image/picture-03.jpg",
+    date: "20 Junio, 2021",
+    title_one: "Diseño de aterrizaje de aplicaciones móviles y mantenimiento de aplicaciones.",
+    desc_one: "Para nosotros, la opción de tarea, sin financiamiento, es lo que puedo hacer con la inversión. Los tipos no tienen una claridad innata; es el uso del lector en ellos lo que hace su claridad. La investigación ha demostrado que los lectores me leen más de lo que leen con más frecuencia. La claridad es también un proceso dinámico que sigue los hábitos cambiantes de los lectores.",
+    title_two: "Para nosotros, la opción eleifend es adecuada..",
+    desc_two: "Por el momento, cuando estaba enfermo, mi tarea era una misa, pero ahora, ¿a quién le debo hacer la misa? Mi casino está lleno de adornos, pero en los vehículos del chocolate médico. Excepto de la masa. Estaré encantado de dar la bienvenida a los jugadores. Pero el nisl necesita del laoreet, pues no lo acepta, sino el eros de dibujos animados. Ahora la sonrisa del león estará invertida, era en forma de dignificador. Para facilitar el proceso de fabricación. El curso de la vida de la familia y del mundo de la vida está cerrado. La clase es adecuada para los socios silenciosos que se vuelven hacia las costas a través de nuestros matrimonios, a través de los proyectos de Himeneo. Ahora la vida no es más que un torturador. No hay tiempo para la enfermedad, ponerlo o una cama de él, es necesario ponerlo en el lago. Fusce eleifend hendrerit para beber. No es causado por una enfermedad.",
+    title_three: "Al mismo tiempo, es para niños..",
+    desc_three: "No hay ley, a menos que halague la necesidad o la necesidad del tiempo. Es una inversión ecológica. ¿Para quién es el niño? El juego de baloncesto, el tiempo que toma está hecho, odio el dolor de internet rhoncus, una facilisis ni mi como ex. Cada vez la urna del precio de nada, del precio de la masa de tristeza. Nadie en ningún patio. Mecenas en nibh gravida, no para adornar eros, es conveniente para ligula. Pero el autor está preocupado. Cada uno no hará un corte de pelo limpio, para usar un sombrero. Todo el mundo odia a los gatos y los perros.",
+  },
+]
+export default BlogApi;
