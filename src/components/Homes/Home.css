@@ -71,9 +71,9 @@ position: relative;
 }
 
 .homes .right_img {
-background: linear-gradient(145deg, #e2e8ec, #ffffff);
-box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #5a85a1;
- border-radius: 10px;
+/* background: linear-gradient(145deg, #e2e8ec, #ffffff); */
+/* box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #5a85a1; */
+ /* border-radius: 10px; */
  height: 580px;
  width: 510px;
  margin-top: 20%;
