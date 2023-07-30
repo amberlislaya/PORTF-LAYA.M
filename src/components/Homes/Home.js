@@ -46,10 +46,11 @@ const Home = () => {
 I firmly believe that collaboration and teamwork are the key to achieving extraordinary results. <br/> <br/> I am always excited to participate in innovative and challenging projects that allow me to grow as a professional and contribute my passion for programming. My motto is "learn, create, grow".
 
 Thanks for visiting my portfolio! I am open to new opportunities and collaborations, so do not hesitate to contact me. Together, we can take the user experience to a new level and create impactful solutions in the digital world.
-
-I hope to hear from you soon!
-
-Amberlis Laya Madera
+<br/>
+<br/> I hope to hear from you soon!
+<br/>
+<br/>
+Amberlis Laya Madera.
 </p>
 
 <div className="homes_btn d_flex">
