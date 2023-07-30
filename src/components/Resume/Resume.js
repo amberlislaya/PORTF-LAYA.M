@@ -16,8 +16,8 @@ const Resume = () => {
 <div className='content-section mtop d_flex'>
 <div className='left'>
 <div className='heading'>
-<h4>2021-2023</h4>
-<h1>Experiencia Laboral</h1>
+<h4>2005-2023</h4>
+<h1>Educacion</h1>
 </div>
 
 <div className='content'>
@@ -32,7 +32,7 @@ return <Card key ={id} title={val.title} year={val.year} rate={val.rate} desc={v
 </div>
 <div className='left'>
 <div className='heading'>
-  <h4>2007-2010</h4>
+  <h4>2011-2023</h4>
   <h1>Experiencia Laboral</h1>
 </div>
 

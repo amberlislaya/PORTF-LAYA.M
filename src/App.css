@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Rampart+One&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -11,13 +12,12 @@ html {
 
 body {
   font-family: 'Montserrat Alternates', sans-serif;
-    /* font-family: 'Rampart One', cursive; */
-    background-color: #ecf0f3;
+  background-color: #ecf0f3;
 }
 
 .container {
-max-width: 95%;
-margin: auto;
+  max-width: 95%;
+  margin: auto;
 }
 
 .d_flex {
@@ -27,23 +27,19 @@ margin: auto;
 
 .f_flex {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 a {
   text-decoration: none;
   color: black;
-
 }
 
 li {
-list-style: none;
-
+  list-style: none;
 }
 
 .uppercase {
-text-transform: uppercase;
-
+  text-transform: uppercase;
 }
 
 .capitalize {
@@ -62,18 +58,14 @@ button {
   transition: 0.5s all ease;
   cursor: pointer;
   color: #000;
-}
-
-.btn_shadow {
- background: linear-gradient(145deg, #e2e8ec, #ffffff);
- box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
 }
 
 .btn_shadow:hover {
   background: #ff014f;
   color: white;
   transform: translateY(-10px);
-
 }
 
 .box_shadow {
@@ -82,8 +74,10 @@ button {
   border-radius: 10px;
 }
 
-.row, .left ,.right {
-width: 50%;
+.row,
+.left,
+.right {
+  width: 50%;
 }
 
 .top {
@@ -95,24 +89,22 @@ width: 50%;
 }
 
 .heading {
-  margin: 50px 0 50px 0
+  margin: 50px 0 50px 0;
 }
 
 .heading h4 {
-color: #ff014f;
-letter-spacing: 2px;
-font-weight: 400;
+  color: #ff014f;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 .heading h1 {
   color: #3c3e41;
   font-size: 60px;
-  
 }
 
 h1 {
   color: #3c3e41;
-  
 }
 
 .grid {
@@ -129,7 +121,7 @@ p {
   text-align: center;
 }
 
-textarea, 
+textarea,
 input {
   width: 100%;
   padding: 20px;
@@ -142,18 +134,38 @@ input {
 footer {
   margin: 20% 0 10% 0;
 }
+
 footer p {
   margin-top: 30px;
 }
-@media (max-width:768px){
-.grid{
-  grid-template-columns: repeat(2, 1fr);
-}
-.left,
-.right {
-  width: 100%;
-}
+
+/* Media Queries for Responsive Design */
+
+/* For screens up to 600px width */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .row,
+  .left,
+  .right {
+    width: 100%;
+  }
 }
 
+/* For screens between 601px and 900px width */
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For screens 901px and above */
+@media (min-width: 901px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 

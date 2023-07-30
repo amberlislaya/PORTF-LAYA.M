@@ -1,31 +1,71 @@
 .features .box {
-padding: 50px;
+  padding: 50px;
 }
 
 .features .box h2 {
-margin: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 .features .box p {
-word-spacing: 2px;
-transition: 0.5s;
+  word-spacing: 2px;
+  transition: 0.5s;
 }
 
 .features .box i {
- font-size: 30px;
- margin-top: 20px;
- transition: 0.5s;
- opacity: 0;
+  font-size: 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  opacity: 0;
 }
 
-.features .box:hover p{
-color: white;
-
+.features .box:hover p {
+  color: white;
 }
 
 .features .box:hover i {
   color: white;
- opacity: 2;
+  opacity: 1;
 }
 
+/* Media Queries for Responsive Design */
+
+/* For screens up to 600px width */
+@media (max-width: 600px) {
+  .features .box {
+    padding: 30px;
+  }
+
+  .features .box h2 {
+    font-size: 24px;
+  }
+
+  .features .box p {
+    font-size: 14px;
+  }
+
+  .features .box i {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
+
+/* For screens between 601px and 1024px width */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .features .box {
+    padding: 40px;
+  }
+
+  .features .box h2 {
+    font-size: 28px;
+  }
+
+  .features .box p {
+    font-size: 16px;
+  }
+
+  .features .box i {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+}
 

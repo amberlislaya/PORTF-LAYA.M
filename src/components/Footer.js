@@ -9,7 +9,7 @@ const Footer = () => {
 <div className='container text-center top'>
 <div className='img'> 
 </div>
-<p>© 2023. Amberlis Laya Codificadora-Temas </p>
+<p>©2023. Amberlis Laya Full Stack Development - Todos los derechos reservados</p>
 </div>
 </footer>
 </>

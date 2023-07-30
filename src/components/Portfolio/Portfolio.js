@@ -11,7 +11,7 @@ const Portfolio = () => {
 <section className="Portfolio top" id='portfolio'> 
 <div className="container">
 <div className='heading text-center'>
-	<h4>VISITA MI PORTAFOLIO Y GUARDA TUS COMENTARIOS</h4>
+	<h4>VISITA MI PORTAFOLIO</h4>
 	<h1>Mi Portafolio</h1>
 </div>
 

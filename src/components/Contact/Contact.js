@@ -2,6 +2,15 @@ import React, { useState} from 'react'
 import "./Contact.css"
 import contact1 from "../pic/contact1.png"
 
+import {
+  FaFacebookF,
+  FaLinkedin,
+  FaYoutubeSquare,
+  FaGithubAlt,
+  FaDribbble,
+  FaInstagram,
+} from 'react-icons/fa';
+
 const Contact = () => {
 
 const [data, setData] = useState({
@@ -54,22 +63,50 @@ const formSubmit = (event)=>{
 
 <div className='details'>
 <h1>Información de Contacto</h1>
-<p>Estoy disponible Full Time para el trabajo independiente.
+<p>Estoy disponible Full Time.
 Contáctame a través de:</p>
 <br/>
 <p>Teléfono: +5491122781197</p>
 <p>Email: laya.playapps@gmail.com</p> <br/>
 <span>Sigueme</span>
+
 <div className='button f_flex'>
 <button className='btn_shadow'>
-<i className='fab fa-facebook-f'></i>
+<a  href="https://facebook.com/amberlis.laya.9" className='fab'>
+  <FaFacebookF/>
+</a>
 </button>
+
 <button className='btn_shadow'>
-<i className='fab fa-instagram'></i>
+<a href="https://www.instagram.com/soyamberlis/" className='fab'>
+  <FaInstagram/>
+</a>
 </button>
+
 <button className='btn_shadow'>
-<i className='fab fa-twitter'></i>
+<a href="https://linkedin.com/in/amberlis-laya-m" className='fab'>
+<FaLinkedin/>
+</a>
 </button>
+
+<button className='btn_shadow'>
+<a href="https://www.youtube.com/@laya.developer/featured" className="fab" >
+  <FaYoutubeSquare/>
+</a>
+</button>
+
+<button className='btn_shadow'>
+<a href="https://portfolio-amberlislaya.netlify.app/" className="fab" >
+	<FaDribbble/>
+</a>
+</button>
+
+<button className='btn_shadow'>
+<a href="https://github.com/amberlislaya" className="fab" >
+  <FaGithubAlt/>
+</a>
+</button>
+
 </div>
 </div>
 </div>
@@ -102,7 +139,6 @@ ENVIAR
 </button>
 </form>
 </div>
-
 
 
 </div>

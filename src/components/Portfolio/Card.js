@@ -50,14 +50,13 @@ const Card = (props) => {
 <div className='modal-text right'>
     <span>Featured - Design</span>
     <h1>{props.title}</h1>
-    <p>Lorem  </p>
-    <p>Lorem  </p>
+    <p>Developer Frontendt </p>
 <div className='button f_flex mtop'>
   <button className='btn_shadow'>
     LIKE THIS <i className='far fa-thumbs-up'></i>
   </button>
   <button className='btn_shadow'>
-    VIEW PROJECT <i className='fas fa-chevron-right'></i>
+    VIEW PROJECT <a  className='fas fa-chevron-right'></a>
   </button>
 </div>
 

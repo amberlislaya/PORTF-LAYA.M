@@ -1,4 +1,4 @@
-.Testimonial h2 {
+/* .Testimonial h2 {
 margin: 15px 0 0 0;
 }
 
@@ -42,13 +42,13 @@ font-weight: 500;
 
 .Testimonial .slide_button .prev_btn {
 margin-right: 30px;
-}
+} */
 
 /* .Testimonial .details span{
 color: #ff014f;
 } */
 
-.Testimonial .slide{
+/* .Testimonial .slide{
 max-width: 80%;
 margin: auto;
 height: 500px;
@@ -113,5 +113,5 @@ article.nextSlide {
 .Testimonial .quote{
     display: none;
 }
-}
+} */
 

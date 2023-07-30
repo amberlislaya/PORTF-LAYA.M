@@ -1,4 +1,4 @@
-.Portfolio{
+.Portfolio {
     position: relative;
 }
 
@@ -7,19 +7,18 @@
     position: relative;
 }
 
-.Portfolio .box:hover{
+.Portfolio .box:hover {
     background: none;
     transform: translateY(-0);
-
 }
 
-.Portfolio .img{
+.Portfolio .img {
     height: 300px;
     overflow: hidden;
     transition: 0.5s;
 }
 
-.Portfolio img{
+.Portfolio img {
     width: 100%;
     border-radius: 15px;
     transition: 0.5s;
@@ -29,8 +28,8 @@
     transform: scale(1.2);
 }
 
-.Portfolio .category{
-    margin: 20px 0 0 20px 0;
+.Portfolio .category {
+    margin: 20px 0 0 20px;
     text-transform: uppercase;
 }
 
@@ -39,54 +38,49 @@
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 500;
-
 }
 
 .Portfolio .arrow {
-position: absolute;
-right: 30px;
-bottom: 11%;
-transform: rotate(-45deg);
-color: #ff014f;
-opacity: 0;
-transition: 0.5s;
+    position: absolute;
+    right: 30px;
+    bottom: 11%;
+    transform: rotate(-45deg);
+    color: #ff014f;
+    opacity: 0;
+    transition: 0.5s;
 }
 
-.Portfolio .title:hover .arrow{
+.Portfolio .title:hover .arrow {
     opacity: 1;
 }
 
-.Portfolio h2{
+.Portfolio h2 {
     font-size: 15px;
     transition: 0.5s;
     padding-bottom: 30px;
 }
 
-.Portfolio .box:hover h2{
+.Portfolio .box:hover h2 {
     color: #ff014f;
 }
 
-.Portfolio .box:hover{
+.Portfolio .box:hover {
     color: black;
 }
-
-/* .Portfolio label i{
-    margin-right: 10px; */
-
 
 body .active-modal {
     overflow-y: hidden;
 }
 
-.btn-modal{
+.btn-modal {
     padding: 10px 20px;
     display: block;
     margin: 100px auto 0;
     font-size: 18px;
 }
 
-.modal, 
-.overlay{
+.modal,
+.overlay {
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -117,8 +111,8 @@ body .active-modal {
     border-radius: 10px;
 }
 
-.modal-text{
-    padding: 0 100px 0 50px;
+.modal-text {
+    padding: 0 50px;
 }
 
 .modal-text h1 {
@@ -130,20 +124,18 @@ body .active-modal {
     font-size: 17px;
     margin-bottom: 20px;
     line-height: 25px;
-
 }
 
-.modal-text button{
+.modal-text button {
     margin-right: 20px;
     color: #ff014f;
 }
 
-.modal-text button i{
+.modal-text button i {
     margin-left: 10px;
-
 }
 
-.modal-text button.close-modal{
+.modal-text button.close-modal {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -151,31 +143,34 @@ body .active-modal {
     height: 50px;
     text-align: center;
     border-radius: 50%;
-    padding: 0 0;
+    padding: 0;
     font-size: 20px;
 }
 
-.modal-text button.close-modal i{
+.modal-text button.close-modal i {
     margin: 0;
-    
 }
 
-@media (max-width: 768px) {
-  .modal,
-  .overlay {
-    overflow: scroll;
-  }  
-  .modal .modal-img { 
-    margin: 50px 0 50px 0;
-  }
-  .modal-content {
-    flex-direction: column;
+/* Media Queries for Responsive Design */
 
-  }
-  .modal .right,
-  .modal .left {
-    padding: 0;
-  }
+/* For screens up to 600px width */
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 30px;
+        min-width: 80%;
+    }
+
+    .modal-text {
+        padding: 0 30px;
+    }
+}
+
+/* For screens between 601px and 1024px width */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .modal-content {
+        padding: 40px;
+        min-width: 70%;
+    }
 }
 
 
