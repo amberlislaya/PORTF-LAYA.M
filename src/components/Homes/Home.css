@@ -1,6 +1,6 @@
 .homes {
-    position: relative;
-}
+position: relative;
+ }
 
 .homes h3 {
     font-weight: 100;
@@ -21,7 +21,6 @@
     font-weight: bold;
     color: #ff014f;
 }
-
 .homes h2 span {
     color: #121213;
 }
@@ -47,19 +46,23 @@
 
 .homes_btn button {
     margin-right: 30px;
+
 }
 
 .homes_btn i {
     font-size: 20px;
+
 }
 
-.homes_btn button img {
+.homes_btn button  img {
     width: 20px;
     height: 20px;
+
 }
 
 .homes .left {
     margin-right: 10%;
+
 }
 
 .homes .right {
@@ -68,61 +71,35 @@
 }
 
 .homes .right_img {
-    height: 580px;
-    width: 100%;
-    max-width: 510px;
-    margin-top: 20%;
+/* background: linear-gradient(145deg, #e2e8ec, #ffffff); */
+/* box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #5a85a1; */
+ /* border-radius: 10px; */
+ height: 580px;
+ width: 510px;
+ margin-top: 20%;
+
 }
 
-.homes .right_img img {
+.homes 
+.right_img img {
     position: absolute;
     top: 0;
     right: 10%;
+    width: 600px;
+}
+
+@media (max-width:768px){
+.homes .right,
+.homes .left {
     width: 100%;
-    max-width: 600px;
+    margin-left: 20px;
 }
-
-/* Media Queries for Responsive Design */
-
-/* For screens up to 600px width */
-@media (max-width: 600px) {
-    .homes h1 {
-        font-size: 40px;
-    }
-
-    .homes h2 {
-        font-size: 30px;
-    }
-
-    .homes_btn {
-        margin-top: 30%;
-    }
-
-    .homes_btn h4 {
-        font-size: 14px;
-    }
+.homes .f_flex {
+    flex-direction: column;
+    flex-direction: column-reverse;
 }
-
-/* For screens between 601px and 1024px width */
-@media (min-width: 601px) and (max-width: 1024px) {
-    .homes h1 {
-        font-size: 50px;
-    }
-
-    .homes h2 {
-        font-size: 40px;
-    }
-
-    .homes_btn {
-        margin-top: 25%;
-    }
-
-    .homes_btn h4 {
-        font-size: 14px;
-    }
-
-    .homes .right_img {
-        height: 400px;
-        margin-top: 15%;
-    }
+.homes .right_img {
+    width: 100%;
+    height: 54vh;
+}
 }
