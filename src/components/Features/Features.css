@@ -27,9 +27,7 @@
   opacity: 1;
 }
 
-/* Media Queries for Responsive Design */
 
-/* For screens up to 600px width */
 @media (max-width: 600px) {
   .features .box {
     padding: 30px;
@@ -49,7 +47,7 @@
   }
 }
 
-/* For screens between 601px and 1024px width */
+
 @media (min-width: 601px) and (max-width: 1024px) {
   .features .box {
     padding: 40px;
